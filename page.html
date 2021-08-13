@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Drag and Drop Demo</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+    <div class="card-holder">
+        <img class="image" id="100" src="images/heart.png">
+        
+        <img class="holder" id="101" src="images/club.png">
+        
+        <img class="holder"  id="102" src="images/diamond.jpg">
+        
+        <img class="holder" id="103" src="images/spade.png">
+
+        <div class="winner">
+            <h1>You Won</h1>
+            <button id="restart-button" onclick="winnerDisplay()" style="border-radius: 10%;background-color: red;color:white;">Restart</button>
+        </div>
+       
+    </div>  
+    <div class="container"></div>  
+    
+    <script src="app.js"></script>
+</html>

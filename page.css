@@ -1,0 +1,63 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(13,auto);
+    grid-gap : 10px 10px;
+    justify-content: space-evenly;
+    background-color: yellowgreen;
+    text-align:center;
+    padding:1%;
+}
+
+.divBox{
+    width:100%;
+    height:auto;
+    background-color: white;
+
+}
+
+.img-box{
+    width:100%;
+    height:auto;
+    background-color: white;
+    cursor: move;
+}
+.card-holder{
+    display: grid;
+    grid-template-columns: 10% auto auto auto ;
+    justify-content: space-evenly;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.holder{
+    box-sizing: border-box;
+    width:100%;
+    height:50%;
+    background-color: white;
+    border:2px solid black;
+}
+.image{
+    box-sizing: border-box;
+    width:100%;
+    height:50%;
+    background-color: white;
+    border:2px solid black;
+}
+.over{
+    border:5px solid red;
+    box-shadow: 10px 10px;
+
+}
+
+.winner{
+    display:none;
+    grid-column: 1/5;
+    background-color: bisque;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+
+  
+  
